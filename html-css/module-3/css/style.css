@@ -43,6 +43,10 @@ body {
 .navigation-link:hover {
   color: #03a9f4;
 }
+main {
+  padding-bottom: 70px;
+
+}
 .main-list-item {
   display: inline-block;
   width: 420px;
@@ -92,13 +96,14 @@ body {
     height: 58px;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 70px;
+    cursor: pointer;
+    color: #626262;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    
+}
 
-}
-.button a {
-  text-decoration: none;
-  display: block;
-  color: #626262;
-  font-family: "Playfair Display", serif;
-  font-size: 20px;
-}
+ 
+  
+ 
+
