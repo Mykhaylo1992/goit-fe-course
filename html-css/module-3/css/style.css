@@ -34,6 +34,9 @@ body {
   margin-right: 120px;
   list-style: none;
 }
+.navigation-list-item:last-child {
+  margin-right: 0;
+  }
 .navigation-link {
   display: block;
   text-transform: uppercase;
@@ -101,6 +104,9 @@ main {
     font-family: "Playfair Display", serif;
     font-size: 20px;
     
+}
+.button:hover {
+  color: #03a9f4;
 }
 
  
