@@ -1,0 +1,350 @@
+/* montserrat-regular - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"),
+    url("../fonts/montserrat-v14-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/montserrat-v14-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat Bold"), local("Montserrat-Bold"),
+    url("../fonts/montserrat-v14-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/montserrat-v14-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-300 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Light"), local("Roboto-Light"),
+    url("../fonts/roboto-v20-latin-300.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v20-latin-300.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), local("Roboto-Regular"),
+    url("../fonts/roboto-v20-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v20-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+button {
+  border: none;
+  background-color: transparent;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+}
+
+.div-header {
+  background-color: rgba(0, 0, 0, .8);
+  background-image: url("../img/bg-mb.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 540px;
+}
+.main-div-buttons {
+display: inline-block;
+margin: 0 auto;
+}
+.main-btn {
+  width: 90px;
+  height: 34px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 16px 0 106px 0;
+}
+
+.main-btn:hover {
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+}
+.main-logo {
+  display: inline-block;
+}
+
+.main-logo {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 20px;
+}
+.main-logo a{
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.div-header-text span {
+  display: block;
+}
+.div-header-title {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: 28px;
+  letter-spacing: -0.7px;
+}
+.div-header-description {
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  width: 220px;
+  margin: 0 auto;
+}
+.div-header-btn {
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-top: 12px;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  width: 289px;
+  height: 40px;
+  background-color: #ff4e50;
+  border-radius: 20px;
+}
+.div-header-btn:hover {
+  color: #ff4e60;
+  background-color: #ffffff;
+}
+.partner {
+  padding-top: 40px;
+  color: rgb(51, 51, 51);
+  font-size: 14px;
+}
+.partner-title {
+  font-size: 22px;
+  width: 280px;
+  margin: 0 auto;
+}
+.partner-list-item {
+  padding-top: 20px;
+  margin: 0 auto;
+}
+.partner-img {
+  width: 200px;
+  position: relative;
+  margin: 0 auto;
+}
+.partner img {
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.partner-name {
+  padding-top: 16px;
+  text-transform: capitalize;
+}
+.partner-img::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 130px;
+  top: 94px;
+}
+.bradley .partner-img::before {
+  background-image: url(../img/tv.png);
+  background-color: #ff4e50;
+}
+.lucas .partner-img::before {
+  background-image: url(../img/testtube.png);
+  background-color: #ffa507;
+}
+.heather .partner-img::before {
+  background-image: url(../img/cup.png);
+  background-color: #1cd7ad;
+}
+.brad .partner-img::before {
+  background-image: url(../img/plane.png);
+  background-color: #4e73db;
+}
+.partner-description {
+  font-family: "Roboto", sans-serif;
+  color: rgb(102, 102, 102);
+  font-weight: 300;
+  min-width: 224px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.partner-btn {
+  margin-top: 26px;
+  margin-bottom: 70px;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  width: 280px;
+  height: 40px;
+  color: #ff4e50;
+  border: 2px solid #ff4e50;
+  border-radius: 20px;
+}
+.partner-btn {
+  background-color: #ff4e50;
+  border: none;
+  color: #ffffff;
+}
+@media screen and (max-width: 767px) {
+.m {
+  display: none;
+}
+}
+@media screen and (min-width: 768px) {
+  .div-header {
+      background-color: rgba(0, 0, 0, .8);
+      background-image: url("../img/bg-tablet.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      min-height: 700px;
+  }
+  .logo {
+    display: none;
+  }
+  .main-logo {
+    margin-top: 30px;
+  }
+  .main-div-buttons {
+    margin: 0 ;
+  }
+  .div-header-title {
+    font-size: 52px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+  .div-header-description {
+    margin-top: 24px;
+    font-size: 30px;
+    width: 400px;
+  }
+  .div-header-btn {
+    margin-top: 26px;
+  }
+  .partner {
+    padding-top: 26px;
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+  }
+  .partner .container {
+    width: 500px;
+  }
+  .partner-list {
+    padding: 0;
+    margin: 0 auto;
+  }
+  .partner-list-item {
+    padding-top: 26px;
+    margin: 0;
+  }
+  .heather {
+    order: 2;
+  }
+  .lucas {
+    order: 3;
+  }
+  .brad {
+    order: 4;
+  }
+  .partner-title {
+    width: 100%;
+  }
+  .partner-btn {
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .partner {
+    
+    padding-top: 30px;
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+  }
+  .partner .container {
+    width: 960px;
+  }
+  .partner-list {
+    width: 100%;
+  }
+  .partner-list-item {
+    padding-top: 30px;
+  }
+  .lucas {
+    order: 3;
+  }
+  .heather {
+    order: 2;
+  }
+  .bradley {
+    order: 1;
+  }
+  .partner-title {
+    width: 100%;
+  }
+  .partner-btn {
+    margin-top: 30px;
+  }
+}
