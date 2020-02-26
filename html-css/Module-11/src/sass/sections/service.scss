@@ -1,106 +1,105 @@
+.service {
+  padding-top: 48px;
+}
+.we-work {
+  text-align: center;
 
-       .service{
-         padding-top:48px;
-     }
-     .we-work{
-         text-align: center;
- 
-         &__zag{
-          font-family: $main-font-kaushanScript;
-          font-weight: 400;
-          font-size: 24px;
-          margin-bottom: 32px;
-          color: rgb(51, 51, 51);
-         }
- 
-         &__title{
-          display: block;
-          font-family:$main-font-montserrat;
-          font-weight: 700;
-          font-size: 30px;
-          color: rgb(51, 51, 51);
-          text-transform: uppercase;
-          
-          &::after{
-            display: block;     
-            content: "";
-            width: 60px;
-            height: 3px;
-            margin: 0 auto;
-            margin-top: 34px;
-            margin-bottom: 66px;
-            background-color: rgb(243, 129, 129);
-          }
-       }
-       }  
-            .service-title {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-pack: justify;
-                -ms-flex-pack: justify;
-                    justify-content: space-between;
-            -ms-flex-wrap: wrap;
-                flex-wrap: wrap;
-         
-                &__list {
-                  width: 334px;
-                 padding-left: 60px;
-                 position: relative;
-               
-                 &::before{
-                  position: absolute;
-                  top: 0;
-                  left: 0;
-                  display: inline-block;
-                  content: '';
-                  width: 31px;
-                  height: 32px;
-                  background-repeat: no-repeat;
-                }
-                }
-                &-item{
-                  text-transform: uppercase;
-                  font-family: $main-font-montserrat;
-                  font-weight: 400;
-                  color: rgb(51, 51, 51);
-                  font-size: 14px;
-                  margin-bottom: 18px;
-              }
-            
-              &__list-description{
-               font-family:$main-font-roboto;
-               font-weight: 400;
-               font-size: 15px;
-               font-size: 15px;
-               width: 276px;
-               margin-top: 13px;
-               color: rgb(153, 153, 153);
-               margin-bottom: 54px;
-               line-height: 24px;
-           }
-            
-        &__list--alarm::before{
-          background-image: url(../images/icons_svg/ALARM.svg);
-      }
-      
-      &__list--line::before{
-         background-image: url(../images/icons_svg/LINE.svg);
-      }
-      
-      &__list--computer::before{
-         background-image: url(../images/icons_svg/COMPUTER.svg);
-      }
-      
-      &__list--book::before{
-         background-image: url(../images/icons_svg/BOOK.svg);
-      }
-      
-      &__list--home::before{
-         background-image: url(../images/icons_svg/HOME.svg);
-      }
-      
-      &__list--image::before{
-         background-image: url(../images/icons_svg/IMAGE.svg);
-      }
-   }
+  &__zag {
+    font-family: $main-font-kaushanScript;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 32px;
+    color: rgb(51, 51, 51);
+  }
+
+  &__title {
+    display: block;
+    font-family: $main-font-montserrat;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+
+    &::after {
+      display: block;
+      content: '';
+      width: 60px;
+      height: 3px;
+      margin: 0 auto;
+      margin-top: 34px;
+      margin-bottom: 66px;
+      background-color: rgb(243, 129, 129);
+    }
+  }
+}
+.service-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  &__list {
+    width: 334px;
+    padding-left: 60px;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: inline-block;
+      content: '';
+      width: 31px;
+      height: 32px;
+      background-repeat: no-repeat;
+    }
+  }
+  &-item {
+    text-transform: uppercase;
+    font-family: $main-font-montserrat;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+
+  &__list-description {
+    font-family: $main-font-roboto;
+    font-weight: 400;
+    font-size: 15px;
+    font-size: 15px;
+    width: 276px;
+    margin-top: 13px;
+    color: rgb(153, 153, 153);
+    margin-bottom: 54px;
+    line-height: 24px;
+  }
+
+  &__list--alarm::before {
+    background-image: url(../images/icons_svg/alarm.svg);
+  }
+
+  &__list--line::before {
+    background-image: url(../images/icons_svg/line.svg);
+  }
+
+  &__list--computer::before {
+    background-image: url(../images/icons_svg/computer.svg);
+  }
+
+  &__list--book::before {
+    background-image: url(../images/icons_svg/book.svg);
+  }
+
+  &__list--home::before {
+    background-image: url(../images/icons_svg/home.svg);
+  }
+
+  &__list--image::before {
+    background-image: url(../images/icons_svg/image.svg);
+  }
+}
